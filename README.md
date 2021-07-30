@@ -1,2 +1,2 @@
-# ansible_curso_alura
+# Ansible - Curso Alura
 Repositório para curso de Ansible da Alura
