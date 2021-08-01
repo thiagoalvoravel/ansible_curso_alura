@@ -1,5 +1,11 @@
 ---
 - hosts: all
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted
+      become: yes
   tasks:
     - name: 'Instala pacotes de dependencia do sistema operacional'
       apt:
