@@ -1,0 +1,7 @@
+
+---
+wp_db_name: wordpress_db
+wp_db_user: root
+wp_db_password: 12345
+wp_user: wordpress_user
+wp_instalation_dir: '/var/www/wordpress'
