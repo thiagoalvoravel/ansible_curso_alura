@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
 
   #config.ssh.private_key_path = "chave privada"
   #config.ssh.host = "172.17.177.40"
